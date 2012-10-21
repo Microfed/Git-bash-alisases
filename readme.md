@@ -1,6 +1,6 @@
 An aliases to help manage the git.
 
-# Git aliases
+### Git aliases
 alias gst='git st '
 
 alias ga='git add '
@@ -69,7 +69,7 @@ alias gcfg='git config --global '
 
 alias gcfl='git config --local '
 
-# Git flow aliases
+### Git flow aliases
 
 alias gfs='git flow feature start'
 
@@ -79,7 +79,7 @@ alias gfp='git flow feature publish'
 
 alias fgo='git flow feature checkout '
 
-# Typo
+### Typo
 
 alias got='git '
 
