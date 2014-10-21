@@ -84,3 +84,6 @@ alias fgo='git flow feature checkout '
 alias got='git '
 
 alias get='git '
+
+## Update
+Check out "alias" file from repository to get my latest aliases set for zsh.

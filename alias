@@ -1,0 +1,85 @@
+alias aload="source ~/.alias"
+
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Git aliases
+alias gst='git status '
+alias ga='git add '
+alias gaa='git add .'
+alias gbr='git branch '
+alias gbrl='git branch -a'
+alias gcm='git commit -v'
+alias gcma='git commit -av'
+alias gph='git push'
+alias gpl='git pull'
+alias gplr='git pull --rebase'
+alias gbs='git bisect start'
+alias gbb='git bisect bad'
+alias gbg='git bisect bad'
+alias gdf='git diff'
+alias go='git checkout '
+alias gfs='git flow feature start'
+alias gff='git flow feature finish'
+alias gfp='git flow feature publish'
+alias fgo='git flow feature checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias gl='git l'
+alias gla='git la'
+alias glr='git lr'
+alias glra='git lra'
+alias gh='git h'
+alias grt='git reset'
+alias grth='git reset --hard'
+alias grthh='git reset --hard HEAD'
+alias gr='git r'
+alias grc='git rc'
+alias grs='git rs'
+alias gra='git ra'
+alias gm='git merge --no-ff'
+alias gsth='git stash'
+alias gsthp='git stash pop'
+alias gsthd='git stash drop'
+alias gsths='git stash show'
+alias gexport='git archive --format zip --output'
+alias gcount='git shortlog -sn'
+alias gcp='git cherry-pick'
+alias gco='git checkout'
+alias gdel='git branch -D'
+alias gpnb='gph 2>&1 > /dev/null | grep git | sh'
+alias gybn='git reflog HEAD | grep 'checkout:' | head -1 | rev | cut -d" " -f1 | rev | copy'
+
+alias got='git '
+alias get='git '
+
+# My own aliases
+alias up='cd ..'
+alias apg='sudo aptitude '
+alias inst='sudo aptitude install '
+alias unist='sudo aptitude remove '
+alias autorm='sudo aptitude autoremove'
+alias upgd='sudo aptitude upgrade'
+alias updt='sudo aptitude update'
+alias srch='aptitude search'
+alias copy='xclip -sel clip'
+
+# Navigation
+alias dv='dirs -v'
+alias pd='pushd'
+
+# Invoke
+alias em="emacs24 -nw"
+alias emc="emacs24 -fs"
+alias phpstorm="phpstorm.sh"
